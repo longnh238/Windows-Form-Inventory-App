@@ -1,0 +1,58 @@
+# Ignore Visual Studio temporary files, build results, and
+# build logs.
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ppPackages/
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono auto generated files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.vscode/*
+
+# Auto-generated VS Code settings
+.vscode/*.json
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Node.js tools for Visual Studio
+.vs/
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of NuGet restore
+**/packages/*
+!**/packages/build/
+# Uncomment if necessary however generally it will be restored upon build.
+#!**/packages/repositories.config
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Include Vagrantfiles but ignore box images
+Vagrantfile
+*.box
